@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { PROPERTYLISTINGSAMPLE } from "@/constants";
-import { PropertyProps } from "@/interfaces";
 
 const IndexPage: React.FC = () => {
   const [filter, setFilter] = useState<string>("");
